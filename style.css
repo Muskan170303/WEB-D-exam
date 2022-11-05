@@ -1,0 +1,89 @@
+body{
+    background-color: white;
+    
+}
+.header{
+    background: rgb(36,13,13);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0;left:0;right:0;
+    z-index: 1000;
+}
+.header .nav{
+    /* justify-content: center;
+    align-items: center; */
+}
+.header .nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 2rem;
+    padding: 20px;
+}
+.header .nav a:hover{
+    color: #29d9d5;
+}
+#bar{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border:1px solid black;
+    background-color: darksalmon;
+    border-radius:20px;
+    height: fit-content; 
+}
+#bar p{
+    color: black;
+}
+#head{
+    font-size: 2rem;
+    color: indigo;
+}
+section{
+    padding: 2rem;
+}
+.box-cont{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    grid-template-columns:repeat(auto-fit,minmax(40rem,1fr));
+    gap: 1.5rem;
+}
+.box-cont .box{
+    padding: 2rem;
+    background-size:cover;
+    border:.5px solid white;
+
+    
+}
+#blue{
+    background-image: url("https://media.istockphoto.com/id/1221837116/photo/positive-man-celebrating-success.jpg?s=612x612&w=0&k=20&c=UAazDrWbUjSHAYNlthq_kf1IdzsxZo9CCtEYc7zJTAw=");
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+
+}
+#blue h3{
+    color:#29d9d5;
+    font-size: 4rem;
+}
+#blue h1{
+    color: white;
+    font-size: 8rem;
+}
+#blue p{
+    color: white;
+    font-size: 2rem;
+}
+button{
+    size: 50rem;
+}
+button:hover{
+    color: #29d9d5;
+}
+#abc{
+    height: 500px;
+}
